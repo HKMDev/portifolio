@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Header from "./components/Header";
+import QuemSomos from "./components/About";
+import GlobalStyle from "./globalStyles";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <GlobalStyle />
+      <Header />
+      <QuemSomos />
+    </>
+  );
+};
 
-export default App
+export default App;
