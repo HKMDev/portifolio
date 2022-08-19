@@ -11,7 +11,7 @@ const Header = () => {
             <img src={logo} alt="" />
         </div>
     <div className="link">
-        <Link href="#" underline="none" style={{color: '#506de6'}}>Quem Somos</Link>
+        <Link href="#" underline="none" style={{color: '#1A8CD8'}}>Quem Somos</Link>
         <Link href="#" underline="none">Nossos Trabalhos</Link>
         <Link href="#" underline="none">Contato</Link>
     </div>
