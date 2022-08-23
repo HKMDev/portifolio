@@ -5,43 +5,43 @@ import profile_k from "../img/profile_k.jpg";
 
 const ProfileCard = () => {
   return (
-    <C.Card sx={{ maxWidth: 300 }}>
-      <C.CardActionArea>
+    <C.Cards>
+      <C.CardArea>
         <img src={profile_k} alt="perfil" />
-        <C.CardContent>
+        <C.CardContainer>
           <h2>Heloisa</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             ultrices eros non tristique tempor. Integer laoreet purus cursus
             metus pulvinar placerat.
           </p>
-        </C.CardContent>
-      </C.CardActionArea>
+        </C.CardContainer>
+      </C.CardArea>
 
-      <C.CardActionArea>
+      <C.CardArea>
         <img src={profile_k} alt="perfil" />
-        <C.CardContent>
+        <C.CardContainer>
           <h2>Keitey</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             ultrices eros non tristique tempor. Integer laoreet purus cursus
             metus pulvinar placerat.
           </p>
-        </C.CardContent>
-      </C.CardActionArea>
+        </C.CardContainer>
+      </C.CardArea>
 
-      <C.CardActionArea>
+      <C.CardArea>
         <img src={profile_k} alt="perfil" />
-        <C.CardContent>
+        <C.CardContainer>
           <h2>Milena</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             ultrices eros non tristique tempor. Integer laoreet purus cursus
             metus pulvinar placerat.
           </p>
-        </C.CardContent>
-      </C.CardActionArea>
-    </C.Card>
+        </C.CardContainer>
+      </C.CardArea>
+    </C.Cards>
   );
 };
 

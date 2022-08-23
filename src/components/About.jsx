@@ -4,7 +4,7 @@ import * as C from "../styles/About";
 
 const About = () => {
   return (
-    <C.Container>
+    <C.About>
       <div>
         <h1>HKM Developer</h1>
         <p>
@@ -21,7 +21,7 @@ const About = () => {
       <div>
         <ProfileCard />
       </div>
-    </C.Container>
+    </C.About>
   );
 };
 

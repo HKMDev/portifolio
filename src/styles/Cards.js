@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Card = styled.div`
+export const Cards = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 3rem;
@@ -8,7 +8,7 @@ export const Card = styled.div`
   padding: 1.9rem;
   `;
 
-export const CardActionArea = styled.div`
+export const CardArea = styled.div`
   border-radius: 10px;
   background: #e7e2e2;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -25,7 +25,7 @@ export const CardActionArea = styled.div`
   }
 `;
 
-export const CardContent = styled.div`
+export const CardContainer = styled.div`
 
   h2 {
     text-align: center;
