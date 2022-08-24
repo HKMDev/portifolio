@@ -1,13 +1,16 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import * as C from '../styles/Jobs'
 
 import iuhhu from "../img/iuhuu.png";
 import bluemed from "../img/bluemed.png";
 import titan from '../img/titan.png'
 
+
+
 function Jobs() {
   return (
-    <div>
+    <C.JobContainer>
       <Carousel fade>
         <Carousel.Item>
           <img className="d-block w-100" src={iuhhu} alt="First slide"/>
@@ -34,7 +37,7 @@ function Jobs() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+    </C.JobContainer>
   );
 }
 
