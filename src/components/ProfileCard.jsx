@@ -11,7 +11,7 @@ const ProfileCard = () => {
         <C.CardContainer>
           <h2>Heloisa Magalhães</h2>
           <p>
-            No segundo semestre de 2021 mergulhei no mundo do Desenvolvimento Web, e de lá pra cá tenho conhecido muitos conceitos importantes.
+            Com vivência na área de informática, mergulhei no mundo do Desenvolvimento Web, com prática diária de construção de sites.
             Tenho bons conhecimentos em: HTML, CSS, Wordpress, Javascript e SASS.
           </p>
 
@@ -24,11 +24,10 @@ const ProfileCard = () => {
       <C.CardArea>
         <img src={profile_k} alt="perfil" />
         <C.CardContainer>
-          <h2>Keitey</h2>
+          <h2>Keitey Barros</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            ultrices eros non tristique tempor. Integer laoreet purus cursus
-            metus pulvinar placerat.
+            Sou Engenheira de Produção e Desenvolvedora Frontend.
+            Minhas áreas de conhecimento são: HTML, CSS, Javascript, React, SCRUM, PBI, WordPress, Typescript, SASS, BOOTSTRAP, Nodejs e Express.
           </p>
 
           <a href="https://www.linkedin.com/in/milena-marlim/" target="_blanck">
@@ -42,7 +41,7 @@ const ProfileCard = () => {
         <C.CardContainer>
           <h2>Milena Marlim</h2>
           <p>
-            Sou Engenheira Química e Desenvolvedora Frontend. Criatividade, layouts inovadores e funcionais, são minha verdadeira paixão! Sou muito cuidadosa com tudo que faço, para que o resultado seja apaixonante! Organização e planejamento são meus sobrenomes! Minhas principais áreas de conhecimento são: HTML, CSS, JavaScript e React.
+            Sou Engenheira Química e Desenvolvedora Frontend. Criatividade, layouts inovadores e funcionais, são minha verdadeira paixão!  Organização e planejamento são meus pontos fortes! Minhas principais áreas de conhecimento são: HTML, CSS, JavaScript e React.
           </p>
           <a href="https://www.linkedin.com/in/milena-marlim/" target="_blanck">
             <i class="fab fa-linkedin-in"></i>
