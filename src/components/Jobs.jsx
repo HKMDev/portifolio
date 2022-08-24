@@ -14,7 +14,9 @@ import electrum from "../img/electrum.png";
 function Jobs() {
   return (
     <C.JobContainer>
-      <Card.Text>Conheça um pouco mais do nosso trabalho</Card.Text>
+      <Card.Text>
+        <h3>Conheça um pouco mais do nosso trabalho</h3>
+      </Card.Text>
       <Carousel fade>
         <Carousel.Item>
           <a
@@ -97,7 +99,7 @@ function Jobs() {
         </Carousel.Item>
       </Carousel>
       <Card.Text>
-        *alguns projetos contaram apenas com nossa participação
+        <h6>*alguns projetos contaram apenas com nossa participação</h6>
       </Card.Text>
     </C.JobContainer>
   );
