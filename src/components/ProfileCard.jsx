@@ -1,13 +1,15 @@
 import React from "react";
 import * as C from "../styles/Cards";
 
-import profile_k from "../img/profile_k.jpg";
+import profile_H from "../img/profile_H.jpg";
+import profile_K from "../img/profile_K.jpeg";
+import profile_M from "../img/profile_M.jpeg";
 
 const ProfileCard = () => {
   return (
     <C.Cards>
       <C.CardArea>
-        <img src={profile_k} alt="perfil" />
+        <img src={profile_H} alt="perfil" />
         <C.CardContainer>
           <h2>Heloisa Magalhães</h2>
           <p>
@@ -22,7 +24,7 @@ const ProfileCard = () => {
       </C.CardArea>
 
       <C.CardArea>
-        <img src={profile_k} alt="perfil" />
+        <img src={profile_K} alt="perfil" />
         <C.CardContainer>
           <h2>Keitey Barros</h2>
           <p>
@@ -37,7 +39,7 @@ const ProfileCard = () => {
       </C.CardArea>
 
       <C.CardArea>
-        <img src={profile_k} alt="perfil" />
+        <img src={profile_M} alt="perfil" />
         <C.CardContainer>
           <h2>Milena Marlim</h2>
           <p>
