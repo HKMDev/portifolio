@@ -9,36 +9,43 @@ const ProfileCard = () => {
       <C.CardArea>
         <img src={profile_k} alt="perfil" />
         <C.CardContainer>
-          <h2>Heloisa</h2>
+          <h2>Heloisa Magalhães</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            ultrices eros non tristique tempor. Integer laoreet purus cursus
-            metus pulvinar placerat.
+            Com vivência na área de informática, mergulhei no mundo do Desenvolvimento Web, com prática diária de construção de sites.
+            Tenho bons conhecimentos em: HTML, CSS, Wordpress, Javascript e SASS.
           </p>
+
+          <a href="https://www.linkedin.com/in/heloisa-magalhães-290453181" target="_blanck">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </C.CardContainer>
       </C.CardArea>
 
       <C.CardArea>
         <img src={profile_k} alt="perfil" />
         <C.CardContainer>
-          <h2>Keitey</h2>
+          <h2>Keitey Barros</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            ultrices eros non tristique tempor. Integer laoreet purus cursus
-            metus pulvinar placerat.
+            Sou Engenheira de Produção e Desenvolvedora Frontend.
+            Minhas áreas de conhecimento são: HTML, CSS, Javascript, React, SCRUM, PBI, WordPress, Typescript, SASS, BOOTSTRAP, Nodejs e Express.
           </p>
+
+          <a href="https://www.linkedin.com/in/milena-marlim/" target="_blanck">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </C.CardContainer>
       </C.CardArea>
 
       <C.CardArea>
         <img src={profile_k} alt="perfil" />
         <C.CardContainer>
-          <h2>Milena</h2>
+          <h2>Milena Marlim</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            ultrices eros non tristique tempor. Integer laoreet purus cursus
-            metus pulvinar placerat.
+            Sou Engenheira Química e Desenvolvedora Frontend. Criatividade, layouts inovadores e funcionais, são minha verdadeira paixão!  Organização e planejamento são meus pontos fortes! Minhas principais áreas de conhecimento são: HTML, CSS, JavaScript e React.
           </p>
+          <a href="https://www.linkedin.com/in/milena-marlim/" target="_blanck">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </C.CardContainer>
       </C.CardArea>
     </C.Cards>
