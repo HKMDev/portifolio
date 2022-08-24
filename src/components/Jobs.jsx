@@ -2,14 +2,14 @@ import React from "react";
 import { Carousel, Card } from "react-bootstrap";
 import * as C from "../styles/Jobs";
 
-import iuhhu from "../img/iuhuu.png";
-import bluemed from "../img/bluemed.png";
-import titan from "../img/titan.png";
-import agency from "../img/agency.png";
-import agencia from "../img/agencia.png";
-import cafe from "../img/cafe.png";
-import carflix from "../img/carflix.png";
-import electrum from "../img/electrum.png";
+import iuhhu from "../img/iuhuu.jpg";
+import bluemed from "../img/bluemed.jpg";
+import titan from "../img/titan.jpg";
+import agency from "../img/agency.jpg";
+import agencia from "../img/agencia.jpg";
+import cafe from "../img/cafe.jpg";
+import carflix from "../img/carflix.jpg";
+import electrum from "../img/electrum.jpg";
 
 function Jobs() {
   return (

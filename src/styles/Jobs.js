@@ -14,7 +14,7 @@ export const JobContainer = styled.div`
     }
 
     h6{
-        padding: 1.4rem;
+        padding: -.6rem;
         font-style: italic;
         font-size: 10px;
     }
