@@ -14,8 +14,11 @@ export const JobContainer = styled.div`
     }
 
     h6{
-        padding: -.6rem;
         font-style: italic;
         font-size: 10px;
+    }
+    
+    .card-text{
+        margin-right: auto;
     }
 `;
