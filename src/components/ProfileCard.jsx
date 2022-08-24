@@ -33,11 +33,9 @@ const ProfileCard = () => {
       <C.CardArea>
         <img src={profile_k} alt="perfil" />
         <C.CardContainer>
-          <h2>Milena</h2>
+          <h2>Milena Marlim</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            ultrices eros non tristique tempor. Integer laoreet purus cursus
-            metus pulvinar placerat.
+          Sou Engenheira Química e Desenvolvedora Frontend. Criatividade, layouts inovadores e funcionais, são minha verdadeira paixão! Sou muito cuidadosa com tudo que faço, para que o resultado seja apaixonante! Organização e planejamento são meus sobrenomes!
           </p>
         </C.CardContainer>
       </C.CardArea>
