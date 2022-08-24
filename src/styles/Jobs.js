@@ -21,4 +21,8 @@ export const JobContainer = styled.div`
     .card-text{
         margin-right: auto;
     }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        background-image: none;
+    }
 `;
