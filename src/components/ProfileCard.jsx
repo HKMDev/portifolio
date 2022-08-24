@@ -14,6 +14,10 @@ const ProfileCard = () => {
             No segundo semestre de 2021 mergulhei no mundo do Desenvolvimento Web, e de lá pra cá tenho conhecido muitos conceitos importantes.
             Tenho bons conhecimentos em: HTML, CSS, Wordpress, Javascript e SASS.
           </p>
+
+          <a href="https://www.linkedin.com/in/heloisa-magalhães-290453181" target="_blanck">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </C.CardContainer>
       </C.CardArea>
 
@@ -26,6 +30,10 @@ const ProfileCard = () => {
             ultrices eros non tristique tempor. Integer laoreet purus cursus
             metus pulvinar placerat.
           </p>
+
+          <a href="https://www.linkedin.com/in/milena-marlim/" target="_blanck">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </C.CardContainer>
       </C.CardArea>
 
@@ -36,6 +44,9 @@ const ProfileCard = () => {
           <p>
             Sou Engenheira Química e Desenvolvedora Frontend. Criatividade, layouts inovadores e funcionais, são minha verdadeira paixão! Sou muito cuidadosa com tudo que faço, para que o resultado seja apaixonante! Organização e planejamento são meus sobrenomes! Minhas principais áreas de conhecimento são: HTML, CSS, JavaScript e React.
           </p>
+          <a href="https://www.linkedin.com/in/milena-marlim/" target="_blanck">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </C.CardContainer>
       </C.CardArea>
     </C.Cards>
