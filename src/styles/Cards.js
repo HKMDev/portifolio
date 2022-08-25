@@ -6,6 +6,30 @@ export const Cards = styled.div`
   flex-direction: column;
   margin: 2rem;
   padding: 1.9rem;
+
+  h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  `;
+
+export const CardArea2 = styled.div`
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: center;
+  border-radius: 10px;
+  background: #e7e2e2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.4s;
+  margin: 10px;
+
+img {
+  width: 20%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+  
   `;
 
 export const CardArea = styled.div`
@@ -16,6 +40,7 @@ align-items: center;
   background: #e7e2e2;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all 0.4s;
+  margin: 10px;
 
   &:hover{
     background: #fcf5f5;
