@@ -16,7 +16,7 @@ export const JobContainer = styled.div`
         background-image: none;
     }
     .card-text{
-        margin-left: auto;
+        margin-right: auto;
         font-size:10px;
         font-style:italic;
        
