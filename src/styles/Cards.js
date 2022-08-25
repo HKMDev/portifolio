@@ -13,24 +13,6 @@ export const Cards = styled.div`
   }
   `;
 
-export const CardArea2 = styled.div`
-display: flex;
-flex-direction: row-reverse;
-justify-content: center;
-align-items: center;
-  border-radius: 10px;
-//   background: #e7e2e2;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  transition: all 0.4s;
-  margin: 10px;
-
-img {
-  width: 20%;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
-}
-  
-  `;
 
 export const CardArea = styled.div`
 display: flex;
@@ -41,11 +23,7 @@ align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all 0.4s;
   margin: 10px;
-  padding-bottom: 30px;
-
-  &:hover{
-    background: #fcf5f5;
-  }
+  padding: 30px;
   
   img {
     width: 20%;
@@ -64,7 +42,9 @@ text-align: center;
   }
 
   p {
-    text-align: center;
+    text-align: left;
+    margin-left:30px;
+    padding:0px;
   }
 
   a{

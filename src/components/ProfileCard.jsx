@@ -25,8 +25,7 @@ const ProfileCard = () => {
           </a>
         </C.CardContainer>
       </C.CardArea>
-      
-        <C.CardArea2>
+      <C.CardArea > 
           <img src={profile_K} alt="perfil" />
           <C.CardContainer>
             <h2>Keitey Barros</h2>
@@ -39,7 +38,7 @@ const ProfileCard = () => {
               <i class="fab fa-linkedin-in"></i>
             </a>
           </C.CardContainer>
-        </C.CardArea2>
+        </C.CardArea>
      
       <C.CardArea>
         <img src={profile_M} alt="perfil" />

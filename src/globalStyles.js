@@ -48,11 +48,14 @@ h3{
   text-transform: uppercase;
   font-weight:700;
   text-align:center;
-  padding: 2.3rem 0;  
+  padding-bottom: 2rem;
+  color:#FF8C32;
 }
 
 #root, #__next {
   isolation: isolate;
+  max-width:1600px;
+  margin:0 auto;
 }
 
 .largura-strict{
@@ -63,7 +66,13 @@ h3{
 .margin-section{
     margin-top:60px;
 }
-
+.carousel-indicators [data-bs-target]{
+   background:#D61C4E;
+   border-radius: 10px; 
+}
+.carousel-indicators .active{
+   background:#FF8C32; 
+}
 `;
 
 export default GlobalStyle;
