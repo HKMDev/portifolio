@@ -66,13 +66,6 @@ h3{
 .margin-section{
     margin-top:60px;
 }
-.carousel-indicators [data-bs-target]{
-   background:#D61C4E;
-   border-radius: 10px; 
-}
-.carousel-indicators .active{
-   background:#FF8C32; 
-}
 `;
 
 export default GlobalStyle;
