@@ -15,4 +15,7 @@ export const JobContainer = styled.div`
     .carousel-control-next-icon, .carousel-control-prev-icon{
         background-image: none;
     }
+    .card-text{
+        margin-right: auto;
+    }
 `;
