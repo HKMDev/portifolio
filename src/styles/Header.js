@@ -5,6 +5,11 @@ export const Menu = styled.div`
   width: 100%;
   justify-content: space-between;
 
+  @media (max-width: 650px){
+    justify-content: space-around;
+    padding: 10px;
+  }
+
   img {
     width: 85px;
     height: 65px;
@@ -24,5 +29,15 @@ export const Menu = styled.div`
   }
   a:hover {
     color: #1a8cd8;
+  }
+
+  @media (max-width: 650px) {
+    img{
+      display: none;
+    }
+
+    .link{
+      margin-right: 0;
+    }
   }
 `;
