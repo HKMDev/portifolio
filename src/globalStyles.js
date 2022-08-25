@@ -46,11 +46,24 @@ p, h1, h2, h3, h4, h5, h6 {
 
 h3{
   text-transform: uppercase;
+  font-weight:700;
+  text-align:center;
+  padding: 2.3rem 0;  
 }
 
 #root, #__next {
   isolation: isolate;
 }
+
+.largura-strict{
+    max-width:1250px;
+    margin: 0 auto;    
+}
+
+.margin-section{
+    margin-top:60px;
+}
+
 `;
 
 export default GlobalStyle;

@@ -19,7 +19,7 @@ flex-direction: row-reverse;
 justify-content: center;
 align-items: center;
   border-radius: 10px;
-  background: #e7e2e2;
+//   background: #e7e2e2;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all 0.4s;
   margin: 10px;

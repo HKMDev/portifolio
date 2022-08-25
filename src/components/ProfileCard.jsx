@@ -8,8 +8,8 @@ import profile_M from "../img/profile_M.jpeg";
 
 const ProfileCard = () => {
   return (
-    <C.Cards>
-      <h2>Conheça nosso time!</h2>
+    <C.Cards className="largura-strict">
+      <h3>Conheça nosso time!</h3>
       <C.CardArea >
         <img src={profile_H} alt="perfil" />
         <C.CardContainer >

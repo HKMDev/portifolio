@@ -5,7 +5,7 @@ import ProfileCard from "../components/ProfileCard"
 const About = () => {
   return (
     <C.About>
-      <div>
+      <div className="largura-strict">
         <h1>HKM Developer</h1>
         <p>
         Somos a HKM Developer, equipe especialista em soluções Web!

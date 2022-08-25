@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const About = styled.div`
-  background: #f6f6f6;
+//   background: #f6f6f6;
 
   h1{
     text-align: center;
@@ -9,8 +9,7 @@ export const About = styled.div`
   }
 
   p{
-    font-style: italic;
-    text-align: justify;
+    text-align: center;
     padding: 2.2rem;
   }
 `;
