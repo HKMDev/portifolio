@@ -1,6 +1,6 @@
 import React from "react";
-import ProfileCard from "./ProfileCard";
 import * as C from "../styles/About";
+import ProfileCard from "../components/ProfileCard"
 
 const About = () => {
   return (

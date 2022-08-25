@@ -4,7 +4,7 @@ import Team from "./components/Team";
 import GlobalStyle from "./globalStyles";
 
 
-import Jobs from "./components/Jobs";
+// import Jobs from "./components/Jobs";
 
 import Footer from "./components/Footer";
 
@@ -14,7 +14,7 @@ const App = () => {
       <GlobalStyle />
       <Header />
       <Team />
-      <Jobs />
+      {/* <Jobs /> */}
       <Footer />
     </>
   );

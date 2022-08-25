@@ -1,6 +1,7 @@
 import React from "react";
 import * as C from "../styles/Cards";
 
+
 import profile_H from "../img/profile_H.jpg";
 import profile_K from "../img/profile_K.jpeg";
 import profile_M from "../img/profile_M.jpeg";
@@ -8,9 +9,10 @@ import profile_M from "../img/profile_M.jpeg";
 const ProfileCard = () => {
   return (
     <C.Cards>
-      <C.CardArea>
+      <h2>Conheça nosso time!</h2>
+      <C.CardArea className="area_card">
         <img src={profile_H} alt="perfil" />
-        <C.CardContainer>
+        <C.CardContainer className="textual">
           <h2>Heloisa Magalhães</h2>
           <p>
             Com vivência na área de informática, mergulhei no mundo do Desenvolvimento Web, com prática diária de construção de sites.
