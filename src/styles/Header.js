@@ -6,8 +6,8 @@ export const Menu = styled.div`
   justify-content: space-between;
 
   img {
-    width: 150px;
-    height: 120px;
+    width: 85px;
+    height: 65px;
   }
 
   .link {

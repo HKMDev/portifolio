@@ -5,11 +5,10 @@ export const About = styled.div`
 
   h1{
     text-align: center;
-    padding: 30px 0 20px 0;
+    padding-bottom: 2rem;    
   }
 
   p{
     text-align: center;
-    padding: 2.2rem;
   }
 `;

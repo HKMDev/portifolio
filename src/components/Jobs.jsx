@@ -14,9 +14,9 @@ import electrum from "../img/electrum.jpg";
 function Jobs() {
   return (
     <C.JobContainer>
-      <Card.Text>
+      
         <h3>Conheça um pouco mais do nosso trabalho</h3>
-      </Card.Text>
+      
       <Carousel fade>
         <Carousel.Item>
           <a
