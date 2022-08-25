@@ -41,6 +41,7 @@ align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all 0.4s;
   margin: 10px;
+  padding-bottom: 30px;
 
   &:hover{
     background: #fcf5f5;
@@ -57,12 +58,25 @@ align-items: center;
 
 export const CardContainer = styled.div`
 
+text-align: center;
   h2 {
     text-align: center;
   }
 
   p {
     text-align: center;
+  }
+
+  a{
+    font-size: 20px;
+
+    &:hover{
+      color: black;
+    }
+  }
+
+  i{
+    padding-left: 10px;
   }
 
 `;

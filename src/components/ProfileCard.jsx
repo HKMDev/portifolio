@@ -20,6 +20,7 @@ const ProfileCard = () => {
           </p>
 
           <a href="https://www.linkedin.com/in/heloisa-magalhães-290453181" target="_blanck">
+            Acesse nosso linkedin 
             <i class="fab fa-linkedin-in"></i>
           </a>
         </C.CardContainer>
