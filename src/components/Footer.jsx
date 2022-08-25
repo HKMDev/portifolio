@@ -1,13 +1,13 @@
 import React from "react"
-import '../styles/Footer.css'
+import * as C from '../styles/Footer'
 
 import { FcLike } from 'react-icons/fc'
 
 const Footer = () => {
     return (
-        <div className="message_footer">
+        <C.FooterContent>
             <p>Desenvolvido com amor pela equipe HKM Developer <FcLike /></p>
-        </div>
+        </C.FooterContent>
     )
 }
 
