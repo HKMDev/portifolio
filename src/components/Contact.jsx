@@ -1,12 +1,12 @@
 import React from "react";
 import * as C from "../styles/Contact";
 import { MdEmail } from "react-icons/md";
-import robot from "../img/robot.gif";
+import robo from "../img/robo.gif";
 
 const Contact = () => {
   return (
     <C.ContactText>
-      <img src={robot} alt="" />
+      <img src={robo} alt="" />
       <div className="contact">
       Entre em contato conosco
       <a
