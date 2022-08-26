@@ -10,6 +10,7 @@ export const ContactText = styled.div`
     font-weight: bold;
     font-size: 18px;
     height: 100px;
+    color: #FF8C32;
 
     path{
         color: #FBA53B;
