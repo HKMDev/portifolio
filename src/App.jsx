@@ -10,12 +10,12 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-      <GlobalStyle />
       <Header />
-      <Team />
+      <Team spy={true} to='Team' smooth={true}/>
       <Jobs />
       <Contact />
       <Footer />
+      <GlobalStyle />
     </>
   );
 };

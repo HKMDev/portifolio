@@ -4,7 +4,7 @@ import ProfileCard from "../components/ProfileCard";
 
 const About = () => {
   return (
-    <C.About>
+    <C.About id="team">
       <div>
         <h1>HKM Developer</h1>
         <p>

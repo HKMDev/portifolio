@@ -5,7 +5,7 @@ import robo from "../img/robo.gif";
 
 const Contact = () => {
   return (
-    <C.ContactText>
+    <C.ContactText id="contact">
       <img src={robo} alt="" />
       <div className="contact">
       Entre em contato conosco

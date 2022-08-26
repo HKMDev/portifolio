@@ -13,7 +13,7 @@ import electrum from "../img/electrum.jpg";
 
 function Jobs() {
   return (
-    <C.JobContainer>
+    <C.JobContainer id="job">
       
         <h3>Conheça um pouco mais do nosso trabalho</h3>
       
