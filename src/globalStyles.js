@@ -13,12 +13,12 @@ const GlobalStyle = createGlobalStyle`
 
 html, body {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  scroll-behavior: smooth;
 }
 
 img, picture, video, canvas, svg {
