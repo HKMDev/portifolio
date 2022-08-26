@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const About = styled.div`
-//   background: #f6f6f6;
 
   h1{
     text-align: center;
@@ -10,5 +9,9 @@ export const About = styled.div`
 
   p{
     text-align: center;
+  }
+
+  @media (max-width: 650px){
+    margin: 0px 20px;
   }
 `;

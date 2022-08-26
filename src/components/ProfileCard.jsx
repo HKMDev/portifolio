@@ -8,7 +8,7 @@ import profile_M from "../img/profile_M.jpeg";
 
 const ProfileCard = () => {
   return (
-    <C.Cards className="largura-strict">
+    <C.Cards>
       <h3>Conheça nosso time!</h3>
       <C.CardArea >
         <img src={profile_H} alt="perfil" />

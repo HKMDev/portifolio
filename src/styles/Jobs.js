@@ -7,11 +7,6 @@ export const JobContainer = styled.div`
   margin: 0 auto;
   flex-direction: column;
 
-  h6 {
-    font-style: italic;
-    font-size: 10px;
-  }
-
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
     background-image: none;
@@ -25,6 +20,12 @@ export const JobContainer = styled.div`
   .carousel-indicators {
     button {
       background-color: #FF8C32;
+    }
+  }
+
+  @media (max-width: 650px){
+    h3{
+      padding-top: 3rem;
     }
   }
 `;
