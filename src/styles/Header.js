@@ -5,11 +5,6 @@ export const Menu = styled.div`
   width: 100%;
   justify-content: space-between;
 
-  @media (max-width: 650px){
-    justify-content: space-around;
-    padding: 10px;
-  }
-
   img {
     width: 85px;
     height: 65px;
@@ -19,7 +14,6 @@ export const Menu = styled.div`
     display: flex;
     gap: 30px;
     margin-right: 2rem;
-
   }
   a {
     color: #2a3563;
@@ -32,11 +26,18 @@ export const Menu = styled.div`
   }
 
   @media (max-width: 650px) {
-    img{
+    justify-content: space-evenly;
+    padding: 10px;
+
+    a {
+      font-size: 13px;
+    }
+
+    img {
       display: none;
     }
 
-    .link{
+    .link {
       margin-right: 0;
     }
   }
