@@ -27,5 +27,9 @@ export const JobContainer = styled.div`
     h3{
       padding-top: 3rem;
     }
+
+    .card-text{
+      font-size: 6px;
+    }
   }
 `;
